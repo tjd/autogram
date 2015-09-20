@@ -29,5 +29,6 @@ sentence count, and the process continues like this until an
 [autogram](http://en.wikipedia.org/wiki/Autogram) is found, or a duplicate
 sentence is encountered.
 
-This was done mainly as an exercise in using Go, and the program could be
-definitely improved in terms of ease of use, and probably also performance.
+This was done mainly as an exercise in using [Go](https://golang.org/), and
+the program could be definitely improved in terms of ease of use, and probably
+also performance.
