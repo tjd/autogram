@@ -2,7 +2,7 @@ Self-Descriptive Sentences
 ==========================
 
 A **self-descriptive sentence**, or an
-[autogram](http://en.wikipedia.org/wiki/Autogram), is an sentence that
+[autogram](http://en.wikipedia.org/wiki/Autogram), is a sentence that
 describes exactly how many times each letter occurs within it. For example:
 
 > Selena's neat sentence has five as, one b, two cs, two ds, thirty-six es,
@@ -19,8 +19,8 @@ sentences with slightly modified prefixes.
 How it Works
 ------------
 
-The program works by representing sentence as a vector of 26 `int`s. To find
-an [autogram](http://en.wikipedia.org/wiki/Autogram), the sentences vector is
+The program represents a sentence as a vector of 26 `int`s. To find
+an [autogram](http://en.wikipedia.org/wiki/Autogram), the vector is
 first assigned random values, and then the true count of the the resulting
 sentence is calculated. If this true count is the same as the sentences
 vector, then we've found an [autogram](http://en.wikipedia.org/wiki/Autogram).
